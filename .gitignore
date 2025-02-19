@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.python-version
+
+# Logs and local environment files
+*.log
+*.env
+.env.local
+.env.production
+.env.*.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Docker-related files
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# Dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore VS Code and JetBrains IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled Python files
+*.so
+*.dll
+
+# Ignore cloud service credentials
+google-cloud-sdk/
+gcloud.json
+credentials.json
